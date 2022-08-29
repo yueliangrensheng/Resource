@@ -1,31 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T10:03:26.233Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="bFPS79-Nh8XDXvE7W8hK" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T02:21:53.149Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HIVict2HzsdakDfldBVG" version="20.2.7" type="github">
   <diagram id="hNVe-Aet01mLkgb05nlA" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="63ZtbQrmW20SIyCLSpxa-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="63ZtbQrmW20SIyCLSpxa-1" target="63ZtbQrmW20SIyCLSpxa-2">
+        <mxCell id="63ZtbQrmW20SIyCLSpxa-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="63ZtbQrmW20SIyCLSpxa-1" target="63ZtbQrmW20SIyCLSpxa-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="63ZtbQrmW20SIyCLSpxa-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="63ZtbQrmW20SIyCLSpxa-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="364" y="20" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="63ZtbQrmW20SIyCLSpxa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="63ZtbQrmW20SIyCLSpxa-2">
+        <mxCell id="63ZtbQrmW20SIyCLSpxa-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="63ZtbQrmW20SIyCLSpxa-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="414" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="63ZtbQrmW20SIyCLSpxa-2" value="车辆下产线&lt;br&gt;MES推送数据" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="63ZtbQrmW20SIyCLSpxa-2" value="车辆下产线&lt;br&gt;MES推送数据" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="354" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="63ZtbQrmW20SIyCLSpxa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="63ZtbQrmW20SIyCLSpxa-6" target="63ZtbQrmW20SIyCLSpxa-8">
+        <mxCell id="63ZtbQrmW20SIyCLSpxa-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="63ZtbQrmW20SIyCLSpxa-6" target="63ZtbQrmW20SIyCLSpxa-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="63ZtbQrmW20SIyCLSpxa-6" value="斯润收到MES、DMS数据&lt;br&gt;触发智网车卡关系接口" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="63ZtbQrmW20SIyCLSpxa-6" value="斯润收到MES、DMS数据&lt;br&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="337" y="290" width="154" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="63ZtbQrmW20SIyCLSpxa-8" value="智网：" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="354" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="6zCIYdnhi9fQKe4dRp6Y-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="63ZtbQrmW20SIyCLSpxa-8" target="6zCIYdnhi9fQKe4dRp6Y-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63ZtbQrmW20SIyCLSpxa-8" value="1. 智网：导入三码&lt;br&gt;2. 斯润：触发智网车卡关系接口" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="336" y="430" width="156" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6zCIYdnhi9fQKe4dRp6Y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6zCIYdnhi9fQKe4dRp6Y-2" target="6zCIYdnhi9fQKe4dRp6Y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6zCIYdnhi9fQKe4dRp6Y-2" value="实名操作" style="whiteSpace=wrap;html=1;align=center;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6zCIYdnhi9fQKe4dRp6Y-4" value="智网回调实名结果给斯润，斯润调用 T1接口上报车辆信息" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
